@@ -14,7 +14,7 @@
 `code main.c`
 
 4. Compile and burn into board 
- 
+
 `sudo mbed compile --source . --source ~/ee2405/mbed-os-build/ -m B_L4S5I_IOT01A -t GCC_ARM -f`
 
 
@@ -22,8 +22,8 @@
     - loop LED2 amd LED1
 - mbed-os-test-program2
     - loop
-        - LED1 flicker 10 times
-        - LED3 flicker 10 times
+        - LED1 flicker 5 times
+        - LED3 flicker 5 times
 - mbed-os-test-program3
     - loop 
         - LED3 flicker 3 times
