@@ -1,6 +1,7 @@
 # mbed01
 
 1. Goto mbed01
+
 `cd ~/ee2405/mbed01`
 
 2. create new project
@@ -8,10 +9,12 @@
 `mbed new project_name --scm none`
 
 3. add c file in project_name/
+
 `cd project_name`
 `code main.c`
 
-4. Compile and burn into board
+4. Compile and burn into board 
+ 
 `sudo mbed compile --source . --source ~/ee2405/mbed-os-build/ -m B_L4S5I_IOT01A -t GCC_ARM -f`
 
 
